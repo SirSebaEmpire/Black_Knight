@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Black_Knight", "Black_Knight\Black_Knight.csproj", "{2DF3FDE7-F619-4CF4-A75F-DBD5702CE6C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Black_Knight", "Black_Knight\Black_Knight.csproj", "{2DF3FDE7-F619-4CF4-A75F-DBD5702CE6C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Acceso a Datos", "Acceso a Datos", "{890CA7E2-A65B-44B0-A12F-DF9DD9145431}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentacion", "1-Presentacion", "{35D96D36-CDFE-4CBD-89E0-40BC4F79FD7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Logica de Negocios", "2-Logica de Negocios", "{D79A5E3E-6594-44B4-85E1-BDFFDF1DC668}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entidades", "Entidades", "{4627B927-4977-4608-B6C4-312F0DCFFA06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities.Black_Knight", "Entities.Black_Knight\Entities.Black_Knight.csproj", "{6A8B798F-80DC-42E6-A83C-C058D8A731DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Black_Knight", "DataAccess.Black_Knight\DataAccess.Black_Knight.csproj", "{7EF49E2C-30ED-45C9-ADF4-C6253EE6B03D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesLogic.Black_Knight", "BussinesLogic.Black_Knight\BussinesLogic.Black_Knight.csproj", "{7A77D2EF-C34D-47AE-BB56-FD3D0A204A6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +29,27 @@ Global
 		{2DF3FDE7-F619-4CF4-A75F-DBD5702CE6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DF3FDE7-F619-4CF4-A75F-DBD5702CE6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DF3FDE7-F619-4CF4-A75F-DBD5702CE6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8B798F-80DC-42E6-A83C-C058D8A731DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8B798F-80DC-42E6-A83C-C058D8A731DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8B798F-80DC-42E6-A83C-C058D8A731DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8B798F-80DC-42E6-A83C-C058D8A731DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF49E2C-30ED-45C9-ADF4-C6253EE6B03D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF49E2C-30ED-45C9-ADF4-C6253EE6B03D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF49E2C-30ED-45C9-ADF4-C6253EE6B03D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF49E2C-30ED-45C9-ADF4-C6253EE6B03D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A77D2EF-C34D-47AE-BB56-FD3D0A204A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A77D2EF-C34D-47AE-BB56-FD3D0A204A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A77D2EF-C34D-47AE-BB56-FD3D0A204A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A77D2EF-C34D-47AE-BB56-FD3D0A204A6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DF3FDE7-F619-4CF4-A75F-DBD5702CE6C6} = {35D96D36-CDFE-4CBD-89E0-40BC4F79FD7E}
+		{6A8B798F-80DC-42E6-A83C-C058D8A731DF} = {4627B927-4977-4608-B6C4-312F0DCFFA06}
+		{7EF49E2C-30ED-45C9-ADF4-C6253EE6B03D} = {890CA7E2-A65B-44B0-A12F-DF9DD9145431}
+		{7A77D2EF-C34D-47AE-BB56-FD3D0A204A6E} = {D79A5E3E-6594-44B4-85E1-BDFFDF1DC668}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26EC8C6B-3ADA-4A5D-9350-402E3FAD8613}
